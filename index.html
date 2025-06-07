@@ -1,0 +1,182 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Puri Jagannath Room Booking</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: url('temple-bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.6);
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      background-color: rgba(255, 255, 255, 0.9);
+      color: #000;
+      padding: 30px;
+      max-width: 1000px;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+
+    .room {
+      border-bottom: 1px solid #ccc;
+      padding: 15px 0;
+    }
+
+    .room img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #e65100;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Puri Jagannath Temple Room Booking</h1>
+    <p>Book comfortable and affordable rooms for your Yatra</p>
+  </header>
+
+  <nav>
+    <a href="#rooms">Rooms</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="rooms">
+    <h2>Available Rooms</h2>
+
+    <div class="room">
+      <h3>Standard Room</h3>
+      <img src="p1.jpg" alt="Standard Room" />
+      <p>Single Bed, Fan, Attached Bathroom</p>
+      <p><strong>₹800 / night</strong></p>
+      <a href="#contact" class="btn">Book Now</a>
+    </div>
+
+    <div class="room">
+      <h3>Deluxe Room</h3>
+      <img src="p2.jpg" alt="Deluxe Room" />
+      <p>Double Bed, AC, Hot Water</p>
+      <p><strong>₹1500 / night</strong></p>
+      <a href="#contact" class="btn">Book Now</a>
+    </div>
+
+    <div class="room">
+      <h3>Family Suite</h3>
+      <img src="p3.jpg" alt="Family Suite" />
+      <p>2 Double Beds, AC, TV, Balcony</p>
+      <p><strong>₹2500 / night</strong></p>
+      <a href="#contact" class="btn">Book Now</a>
+    </div>
+  </section>
+
+
+
+
+
+
+      <script>
+function toggleForm() {
+    var form = document.getElementById('bookingForm');
+    form.style.display = (form.style.display === 'none') ? 'block' : 'none';
+    }
+</script>
+
+
+  </nav>
+
+   <section id="contact" class="section">
+  <h2>Contact & Booking Form</h2>
+  <form>
+    
+       <form action="https://formsubmit.co/sanjaymalhaniya@gmail.com" method="POST">
+    <label>Full Name</label>
+    <input type="text" placeholder="Your Name" required />
+
+    <label>Email Address</label>
+    <input type="email" placeholder="your@example.com" required />
+
+    <label>Phone Number</label>
+    <input type="tel" placeholder="+91-XXXXXXXXXX" required />
+
+    <label>Preferred Room Type</label>
+    <input type="text" placeholder="Standard / Deluxe / Family Suite" required />
+
+    <label>Message / Special Requests</label>
+    <textarea rows="4" placeholder="Your message here..."></textarea>
+    <button type="submit">Submit</button>
+    <button type="button" onclick="toggleForm()">Close</button>
+
+    </form>
+
+
+
+
+    
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We provide comfortable and affordable rooms near the sacred Jagannath Temple, Puri. Perfect for pilgrims and tourists.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Booking</h2>
+    <p>Whatsapp : "https://wa.me/xxxxx"
+    </p>
+    <a href="https://wa.me/7xxxxxx" target="_blank">Whatsapp Message</a>
+    <p>Email: kapilmalhaniya@gmail.com</p>
+    <p>Phone: +91-xxxxxx</p>
+    <p>Location: Near Jagannath Temple, Puri, Odisha</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Puri Jagannath Yatra Room Booking</p>
+  </footer>
+
+</body>
+</html>
